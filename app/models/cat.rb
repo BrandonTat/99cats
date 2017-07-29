@@ -25,4 +25,7 @@ class Cat < ApplicationRecord
 
   validates :color, inclusion: CAT_COLORS
   validates :sex, inclusion: %w(M F)
+
+  def age
+  end
 end
